@@ -7,9 +7,5 @@ class AutolsNginxModule < Formula
 
   def install
     (share+"autols-nginx-module").install Dir["ngx_http_autols_module/*"]
-#    (share+"autols-nginx-module").mv "ngx_http_autols_module/*", "./"
-#    (share+"autols-nginx-module").rm_rf "ngx_http_autols_module"
-#    (share+"autols-nginx-module").rm "README-DEMO.png"
-#    (share+"autols-nginx-module").install Dir["*"]
   end
 end
